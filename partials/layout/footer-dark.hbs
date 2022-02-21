@@ -70,23 +70,23 @@
         {{#if @site.secondary_navigation}}
         <div class="footer-bottom flex flex-col text-center py-8 mt-8 lg:items-baseline lg:flex-row lg:text-left">
             {{!-- Copy --}}
-            <div class="text-sm flex-none lg:max-w-xs order-1 lg:order-none">
+            {{!-- <div class="text-sm flex-none lg:max-w-xs order-1 lg:order-none">
                 &copy; {{date format="YYYY"}} {{@site.title}}. All rights reserved. Design with
                 <svg class="icon animated infinite pulse" style="color:red;width:15px"><use xlink:href="#icon-heart"></use></svg>
                 by
                 <a href="https://godofredo.ninja" title="Developer FullStack.">@GodoFredoNinja</a>
-            </div>
+            </div> --}}
 
             {{!-- Footer Menu --}}
             <div class="flex-1 text-sm py-4 lg:text-right lg:py-0 lg:ml-6">{{navigation type="secondary"}}</div>
         </div>
         {{else}}
-        <div class="footer-bottom text-center py-8 mt-8 text-sm">
+        {{!-- <div class="footer-bottom text-center py-8 mt-8 text-sm">
             &copy; {{date format="YYYY"}} {{@site.title}}. All rights reserved. Design with
             <svg class="icon animated infinite pulse" style="color:red;width:15px"><use xlink:href="#icon-heart"></use></svg>
             by
             <a href="https://godofredo.ninja" title="Developer FullStack.">@GodoFredoNinja</a>
-        </div>
+        </div> --}}
         {{/if}}
 
     </section>
